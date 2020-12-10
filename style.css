@@ -5,13 +5,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(to right, #355c7d, #faf4ff, #c06c84);;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 .card {
-  border: 4px solid grey;
+  
   padding: 16px;
-  box-shadow: 8px 8px white;
+  box-shadow: 8px 8px linear-gradient(to right, #3c3b3f, #605c3c);
   border-radius: 8px;
   color: white;
   
@@ -49,4 +49,7 @@ img {
 }
 div {
   display: inline-block;
+}
+.about {
+  color: white;
 }
